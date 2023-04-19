@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-public class parkingtest {
+public class Valetinho {
 
 	private JFrame frame;
 	private Estacionamento estacionamento;
@@ -22,7 +22,7 @@ public class parkingtest {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					parkingtest window = new parkingtest();
+					Valetinho window = new Valetinho();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -34,7 +34,7 @@ public class parkingtest {
 	/**
 	 * Create the application.
 	 */
-	public parkingtest() {
+	public Valetinho() {
 		initialize();
 		try {
 	        estacionamento = new Estacionamento(10);	//10 vagas
